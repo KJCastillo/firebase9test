@@ -31,3 +31,19 @@ getDocs(colRef)
 .catch(err => {
     console.log(err.message)
 })
+
+//adding documents
+const addBookForm = document.querySelector('.add')
+addBookForm.addEventListener('submit', (e) => {
+  e.preventDefault()
+  
+})
+
+
+
+//deleting documents
+const deleteBookForms = document.querySelector('.delete')
+deleteBookForms.addEventListener('submit', (e) => {
+  e.preventDefault()
+
+})
